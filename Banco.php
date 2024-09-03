@@ -7,7 +7,7 @@
         private $password = '';
         private $conexao;
 
-        public function __construct(){
+        public function __construct(){ //Estrutura para conexão do database
             $this->conexao = new PDO("mysql:host=". $this->host .";dbname=". $this->dbname, $this->username, $this->password);
         }
 

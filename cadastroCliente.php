@@ -7,7 +7,7 @@
     $conexao = $banco->getConexao();
 
     $cliente = new Cliente($conexao);
-    $cliente->setNome($_POST['nome']);
+    $cliente->setNome($_POST['nome']); //Criando o cliente com o "POST" do form
     $cliente->setCPF($_POST['cpf']);
     $cliente->setTelefone($_POST['telefone']);
     $cliente->setEmail($_POST['email']);
