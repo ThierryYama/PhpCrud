@@ -18,6 +18,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listar Clientes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h2 {
+            color: #333;    
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #2c26d8;
+            color: white;
+        }
+        tr:hover {
+            background-color: #d5d8d5;
+        }
+        
+        a {
+            color: #455dbf;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .actions a {
+            margin-right: 15px;
+        }
+
+        button {
+            background-color: #2c26d8;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 10%;
+        }
+
+        button:hover {
+            background-color: #455dbf;
+        }
+
+        .abtn{
+            color: #f4f4f4;
+        }
+    </style>
 </head>
 <body>
     <h2>Lista de Clientes</h2>
@@ -39,13 +97,13 @@
             <td><?php echo$cliente['email']; ?></td>
             <td><?php echo$cliente['cpf']; ?></td>
             <td>
-                <a href="form_atualizar Cliente.php?id=<?php echo $cliente['id']; ?>">Editar Cliente</a>
+                <a href="form_atualizarCliente.php?id=<?php echo $cliente['id']; ?>">Editar Cliente</a>
                 <a href="deletaCliente.php?id=<?php echo $cliente['id']; ?>">Excluir Cliente</a>
             </td>
         </tr>
     <?php } ?>
     </table>
-    <a href="form_cadastroCliente.php">Cadastrar Cliente</a>
+    <button><a href="form_cadastroCliente.php" class="abtn">Cadastrar Cliente</a></button>
 
 </body>
 </html>

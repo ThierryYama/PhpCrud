@@ -38,7 +38,7 @@
             font-size: 16px;
         }
         button {
-            background-color: #28a745;
+            background-color: #2c26d8;
             color: #fff;
             border: none;
             padding: 10px 20px;
@@ -49,7 +49,7 @@
         }
 
         a{
-            background-color: #28a745;
+            background-color: #2c26d8;
             color: #fff;
             border: none;
             padding: 10px 20px;
@@ -62,11 +62,11 @@
         }
         
         button:hover {
-            background-color: #218838;
+            background-color: #455dbf;
         }
 
         a:hover {
-            background-color: #218838;
+            background-color: #455dbf;
         }
 
         .bt{
