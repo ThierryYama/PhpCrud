@@ -39,6 +39,7 @@
             padding: 12px;
             text-align: left;
             border-bottom: 1px solid #ddd;
+            border: 2px solid black;
         }
         th {
             background-color: #2c26d8;
@@ -82,6 +83,10 @@
 
         .abtn{
             color: #f4f4f4;
+        }
+
+        table{
+            border-radius: 5px;
         }
     </style>
 </head>
