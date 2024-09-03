@@ -12,6 +12,11 @@ class Cliente{
         $this->conexao = $db;
     }
 
+    
+    public function setId($id){
+        $this->id = $id;
+    }
+
     public function setNome($nome){
         $this->nome = $nome;
     }
