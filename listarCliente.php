@@ -23,9 +23,12 @@
             font-family: Arial, sans-serif;
             margin: 20px;
             background-color: #f4f4f4;
+            background-image: url('./img/aurora.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
         }
         h2 {
-            color: #333;    
+            color: #f4f4f4;    
         }
         table {
             width: 100%;
@@ -41,7 +44,12 @@
             background-color: #2c26d8;
             color: white;
         }
-        tr:hover {
+        
+        td{
+            background-color: #f4f4f4;  
+        }
+
+        td:hover {
             background-color: #d5d8d5;
         }
         
@@ -107,3 +115,4 @@
 
 </body>
 </html>
+<!-- view -->

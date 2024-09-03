@@ -15,7 +15,6 @@
             return $this->conexao;
         }
 
-        
-
     }
+    //model
 ?>
